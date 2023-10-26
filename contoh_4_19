@@ -1,0 +1,10 @@
+#contoh_4_19
+def inputPengguna(mesejInput):
+  print(mesejInput)
+  harga = float(input())
+  return harga
+
+def kiraPeratus(h1,h2):
+  peratus=((h2-h1)/h1)*100
+  peratus=round(peratus,2)
+  if peratus>0:
